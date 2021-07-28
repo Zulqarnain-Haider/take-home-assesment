@@ -113,10 +113,9 @@ export default tsx.component({
         )}
 
         <input
-          type={["text"]}
           class={styles.advInput}
           placeholder={this.inputType}
-          vModel={this.advInputData}
+          v-model={this.advInputData}
           onFocus={() => this.onAdvInputFocus()}
           onInput={() => this.validateInput()}
         />

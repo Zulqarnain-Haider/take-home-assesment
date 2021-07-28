@@ -13,7 +13,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env", "vue-tsx-support/enable-check"
     ],
     "paths": {
       "@/*": [
