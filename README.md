@@ -32,7 +32,7 @@ npm run lint
 
 ### Project Introduction
 ```
-This is a sample VUE.js + Typescript project that comprises of an input field which can accept email, url and phone numbers depending on user choice. There is an button on left side of the input field which shows an menu to change the type of input element when clicked. User can choose one of the following types.
+This is a sample VUE.js + Typescript project that comprises of an input field which can accept email, url and phone numbers depending on user choice.\ There is an button on left side of the input field which shows an menu to change the type of input element when clicked. User can choose one of the following types.
 ```
 
 ### Email
@@ -45,5 +45,5 @@ If url is selected from the side menu input field type should be changed to url 
 ```
 ### Phone
 ```
-If the phone is selected from the side menu input field type should be changed to phone and it should validate the input value to be valid phone number and upon submitting the input a popup for making the phone call shall be shown to user in the browser window.
+If the phone is selected from the side menu then input field type should be changed to phone and it should validate the input value to be valid phone number and upon submitting the input a popup for making the phone call shall be shown to user in the browser window.
 ```
