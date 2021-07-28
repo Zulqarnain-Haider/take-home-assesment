@@ -32,7 +32,7 @@ npm run lint
 
 ### Project Introduction
 ```
-This is a sample VUE.js + Typescript project that comprises of an input field which can accept email, url and phone numbers depending on user choice.  There is an button on left side of the input field which shows an menu to change the type of input element when clicked. User can choose one of the following types.
+This is a sample VUE.js + Typescript project that comprises of an input field which can accept email, url and phone numbers depending on user choice. There is an button on left side of the input field which shows an menu to change the type of input element when clicked. User can choose one of the following types.
 ```
 
 ### Email
