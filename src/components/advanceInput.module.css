@@ -112,11 +112,11 @@
     color: white;
   }
   
-  .checkBtn.check-notValid:hover {
+  .checkBtn.checknotValid:hover {
     background-color: #df5127;
   }
   
-  .checkBtn.check-notValid:active {
+  .checkBtn.checknotValid:active {
     background-color: #e04616;
   }
   

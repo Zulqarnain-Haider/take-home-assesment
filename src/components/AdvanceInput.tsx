@@ -1,7 +1,6 @@
-import * as tsx from "vue-tsx-support";
-import styles from "./advanceInput.module.css";
-import store from "../store/index";
-import { component } from "vue/types/umd";
+import * as tsx from 'vue-tsx-support';
+import styles from './AdvanceInput.module.css';
+import store from '../store/index';
 
 export default tsx.component({
   name: "AdvanceInput",
@@ -43,33 +42,6 @@ export default tsx.component({
         /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/
       ),
       advInputData: "",
-
-      //   isFieldInFocus: {
-      //     default: false,
-      //     type: Boolean,
-      //     required: true,
-      // },
-      // isFieldValid: {
-      //     default: false,
-      //     type: Boolean,
-      //     required: true,
-      // },
-      // urlRegExp: {
-      //     default: new RegExp(/^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/),
-      //     type: RegExp
-      // },
-      // emailRegExp: {
-      //     default: new RegExp(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/),
-      //     type: RegExp
-      // },
-      // phoneNoRegExp:{
-      //     default: new RegExp(/^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/),
-      //     type: RegExp
-      // },
-      // advInputData:{
-      //     default: '',
-      //     type: String
-      // }
     };
   },
   methods: {
@@ -134,7 +106,7 @@ export default tsx.component({
               this.dropdownButtonActive ? styles["dropdownBtnActive"] : ""
             } ${this.dropdownButtonClicked ? styles["dropdownBtnActive"] : ""}`}
           >
-            <span class={styles.leftMenuIcon}>
+            <span>
               <font-awesome-icon icon={this.inputIcon} />
             </span>
           </button>
@@ -156,7 +128,7 @@ export default tsx.component({
               onClick={() => this.openInputData()}
               disabled={!this.advInputData}
             >
-              <span class={styles.leftMenuIcon}>
+              <span>
                 <font-awesome-icon icon={["fas", "external-link-alt"]} />
               </span>
             </button>
@@ -174,7 +146,7 @@ export default tsx.component({
                 }`}
               onClick={() => this.verifyInput()}
             >
-              <span class={styles.leftMenuIcon}>
+              <span>
                 <font-awesome-icon icon={["fas", "check"]} />
               </span>
             </button>
@@ -183,7 +155,7 @@ export default tsx.component({
               class={`${styles["popupBtn"]} ${styles["crossBtn"]}`}
               onClick={() => this.clearInput()}
             >
-              <span class={styles.leftMenuIcon}>
+              <span>
                 <font-awesome-icon icon={["fas", "times"]} />
               </span>
             </button>

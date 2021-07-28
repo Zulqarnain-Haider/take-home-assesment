@@ -1,5 +1,5 @@
 import * as tsx from "vue-tsx-support";
-import styles from "./homeStyle.module.css";
+import styles from "./Home.module.css";
 import store from "../store/index";
 import AdvanceInput from "./AdvanceInput";
 
@@ -55,7 +55,6 @@ export default tsx.component({
       this.advanceInput.icon = inputIcon;
 
       store.dispatch("setDropdownStatus", false);
-      // this.$refs.advanceInput.clearInput();
     },
   },
   render() {
@@ -115,7 +114,6 @@ export default tsx.component({
             dropdownButtonHover={this.dropdownButtonHover}
             dropdownButtonActive={this.dropdownButtonActive}
             dropdownButtonClicked={this.dropdownButtonClicked}
-            ref="advanceInput"
           />
         </div>
       </div>
