@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+  
+  .containerDropdown {
+    position: relative;
+    right: 8px;
+  }
+  
+  .popupBtnWrap {
+    position: relative;
+    border-radius: 10px;
+    width: 165px;
+    border: 1px solid gray;
+  }
+  
+  .popupBtn {
+    width: 165px;
+    background-color: white;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .emailBtn {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  
+  .urlBtn {
+    border-radius: 0px;
+  }
+  
+  .phoneBtn {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+  
+  .popupBtn:Bhover {
+    background-color: #ececec;
+  }
+  
+  .popupBtn:active {
+    color:white;
+    background-color: #6f6f6f;
+  }
+  
+  .leftMenuIcon {
+    color: #4c4c4c;
+    width: 20px;
+    padding: 0px 0px 0px 5px;
+  }
+  
+  .leftMenuText {
+    color: #4c4c4c;
+    padding: 0px 10px 0px 13px;
+  }
+  
+  .popupBtn:active .leftMenuIcon{
+    color:white;
+  }
+  
+  .popupBtn:active .leftMenuText{
+    color:white;
+  }
+  
+  .arrowRight {
+    position: absolute;
+    width: 0; 
+    height: 0;
+    top: 41px;
+    left: 165px; 
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #9c9c9c;
+  }
+  
+  .dropdownHovered {
+    background-color: #ececec;
+  }

@@ -1,0 +1,148 @@
+.advInputWrap {
+    display: flex;
+    border: 1px solid #4c4c4c;
+    border-radius: 5px;
+  }
+  
+  .advInput {
+    height: 30px;
+    padding: 5px 5px 5px 15px;
+    width: 200px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .advInput:focus-visible{
+    outline: unset;
+  }
+  
+  .popupBtn {
+    width: 35px;
+    height: 42px;
+    background-color: rgb(243, 243, 243);
+    margin: 0px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #4c4c4c;
+  }
+  
+  .urlBtn {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .extBtn {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .urlBtn:hover  {
+    background-color: #d8d8d8;
+  }
+  
+  .extBtn:hover  {
+    background-color: #d8d8d8;
+  }
+  
+  .urlBtn:active {
+    color:white;
+    background-color: #6f6f6f;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .extBtn:active {
+    color:white;
+    background-color: #6f6f6f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .checkBtn {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .crossBtn {
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+  
+  .checkBtn:hover {
+    background-color: #ececec;
+  }
+  
+  .crossBtn:hover {
+    background-color: #ececec;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .checkBtn:active {
+    color:white;
+    background-color: #6f6f6f;
+  }
+  
+  .crossBtn:active {
+    color:white;
+    background-color: #6f6f6f;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  
+  .notValid {
+    border: 1px solid #df5127;
+  }
+  
+  .checknotValid {
+    background-color: #df5127;
+    color: white;
+  }
+  
+  .checkBtn.check-notValid:hover {
+    background-color: #df5127;
+  }
+  
+  .checkBtn.check-notValid:active {
+    background-color: #e04616;
+  }
+  
+  .dropdownBtnHovered {
+    background-color: #d8d8d8;
+  }
+  
+  .dropdownBtnActive {
+    color:white;
+    background-color: #6f6f6f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .dropdownBtnClicked {
+    color:white;
+    background-color: #6f6f6f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .displayInherit{
+    display:inherit
+  }
+  
+  :disabled{
+    opacity: 0.7;
+    cursor:not-allowed
+  }
