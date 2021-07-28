@@ -1,22 +1,13 @@
 import * as tsx from "vue-tsx-support";
 import styles from "./Home.module.css";
 import store from "../store/index";
-import AdvanceInput from "@/components/AdvanceInput";
+import AdvanceInputField from "@/components/AdvanceInputField";
 
 export default tsx.component({
   name: "App",
   props: {
-    urlHovered: {
-      type: Boolean,
-      required: true,
-    },
-    emailHovered: {
-      type: Boolean,
-      required: true,
-    },
-    phoneHovered: {
-      type: Boolean,
-      required: true,
+    advanceInput: {
+      default: { type: "URL", icon: ["fas", "link"] },
     },
     dropdownButtonHover: {
       type: Boolean,
@@ -30,13 +21,22 @@ export default tsx.component({
       type: Boolean,
       required: true,
     },
-    getDropdownStatus: {
+    urlHovered: {
       type: Boolean,
       required: true,
     },
-    advanceInput: {
-      default: { type: "URL", icon: ["fas", "link"] },
+    emailHovered: {
+      type: Boolean,
+      required: true,
     },
+    phoneHovered: {
+      type: Boolean,
+      required: true,
+    },
+    getDropdownStatus: {
+      type: Boolean,
+      required: true,
+    }
   },
   computed: {
     dropdownStatus: {
@@ -107,8 +107,8 @@ export default tsx.component({
           </div>
         )}
 
-        <div class="container-input">
-          <AdvanceInput
+        <div class={styles.containerInput}>
+          <AdvanceInputField
             inputType={this.advanceInput.type}
             inputIcon={this.advanceInput.icon}
             dropdownButtonHover={this.dropdownButtonHover}

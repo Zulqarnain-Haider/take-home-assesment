@@ -1,16 +1,16 @@
 import * as tsx from 'vue-tsx-support';
-import styles from './AdvanceInput.module.css';
+import styles from './AdvanceInputField.module.css';
 import store from '../store/index';
 
 export default tsx.component({
-  name: "AdvanceInput",
+  name: "AdvanceInputField",
   props: {
     inputType: {
       type: String,
       required: true,
     },
     inputIcon: {
-      type: Array,
+      type: String,
       required: true,
     },
     dropdownButtonHover: {

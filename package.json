@@ -50,6 +50,9 @@
     "vue-loader": "^15.9.7",
     "vue-template-compiler": "^2.6.11",
     "typed-css-modules": "^0.3.7",
-    "babel-core": "7.0.0-bridge.0"
+    "babel-core": "7.0.0-bridge.0",
+    "vue-cli-plugin-tsx-support": "^0.3.0",
+    "vue-jsx-hot-loader": "^1.4.0",
+    "babel-preset-vca-jsx": "^0.1.0"
   }
 }
