@@ -10,7 +10,7 @@ export default tsx.component({
       required: true,
     },
     inputIcon: {
-      type: String,
+      type: Array,
       required: true,
     },
     dropdownButtonHover: {

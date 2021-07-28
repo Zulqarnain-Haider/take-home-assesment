@@ -4,7 +4,7 @@ import store from "../store/index";
 import AdvanceInputField from "@/components/AdvanceInputField";
 
 export default tsx.component({
-  name: "App",
+  name: "Home",
   props: {
     advanceInput: {
       default: { type: "URL", icon: ["fas", "link"] },
