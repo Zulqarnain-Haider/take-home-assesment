@@ -1,7 +1,7 @@
 import * as tsx from "vue-tsx-support";
 import styles from "./Home.module.css";
 import store from "../store/index";
-import AdvanceInput from "./AdvanceInput";
+import AdvanceInput from "@/components/AdvanceInput";
 
 export default tsx.component({
   name: "App",
